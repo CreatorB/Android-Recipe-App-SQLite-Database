@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paper"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/buburcandil" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/iv_detail"
+        android:background="#3D3C3A" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_detail"
+                android:layout_marginTop="3dp"
+                android:text="Resep"
+                android:textColor="#6e7b8b"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="TextView"
+                android:textColor="#8b7b8b"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvTD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvNama"
+                android:text="Bahan"
+                android:textColor="#6e7b8b"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvBahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvTD"
+                android:text="TextView"
+                android:textColor="#8b7b8b"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvBahan"
+                android:text="Cara Memasak"
+                android:textColor="#6e7b8b"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCara"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvK"
+                android:text="TextView"
+                android:textColor="#8b7b8b"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
