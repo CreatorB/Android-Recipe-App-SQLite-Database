@@ -1,4 +1,5 @@
-Android-Recipe-App-SQLite-Database
-==================================
+Android Recipe App | creatorb
+===========================================
 
-Simple App Implementation of SQLite Database | Cara Membuat Aplikasi Resep Masakan Android SQLite Database - creatorb
+|Simple Recipe App Implementation of SQLite Database | Cara Membuat Aplikasi Resep Masakan Android SQLite Database - creatorb |
+
